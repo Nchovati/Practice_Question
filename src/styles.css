@@ -1,0 +1,18 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background-color: lightyellow;
+}
+button{
+    position: relative;
+    height: 45px;
+    width: 150px;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    background-color: whitesmoke;
+}
+button:hover{
+    background-color: lightblue;
+}
