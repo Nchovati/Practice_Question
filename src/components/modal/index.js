@@ -6,8 +6,8 @@ const SuperHeroModal = (props) => {
 
     return (
         <div>
-            <div id="openModal" className="modalDialog">
-                <div>
+            <div id="openModal" className="modalDialog"  onClick={props.closeModal}>
+                <div  onClick = { e => { e.stopPropagation(); } }>
                     <a href="#close" title="Close" className="close" onClick={props.closeModal}>
                         X
                     </a>
